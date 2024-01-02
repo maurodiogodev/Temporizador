@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temporizador estilo pomodoro">
+
+    <title>FocusTimer - Pomodoro</title>
+
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" src="./js/main.js"></script>
+</head>
+
+<body>
+
+    <section id="app">
+
+        <button id="toggle-mode">
+            <span class="sr-only">Dark mode ativado</span>
+            <i class="ph ph-sun"></i>
+            <i class="ph ph-moon"></i>
+        </button>
+
+        <section id="timer-setup">
+            <div>
+                <section id="timer" class="flex">
+                    <span id="minutes">25</span>
+                    <span>:</span>
+                    <span id="seconds">00</span>
+                </section>
+
+                <section id="timer-controls" class="flex">
+
+                    <button data-action="toggleRunning" class="ph-light ph-play-circle">
+                        <span class="sr-only">Iniciar contador</span>
+                    </button>
+
+                    <button data-action="toggleRunning" class="ph-light ph-pause-circle">
+                        <span class="sr-only">Pausar contador</span>
+                    </button>
+
+                    <button data-action="reset" class="ph-light ph-stop-circle">
+                        <span class="sr-only">Parar contador</span>
+                    </button>
+
+                    <button data-action="set" class="ph-light ph-timer">
+                        <span class="sr-only">Configurar contador</span>
+                    </button>
+
+                    <button data-action="addMinutes" class="ph-light ph-plus-circle" id="addMinutes">
+                        <span class="sr-only">Acrescentar cinco minutos</span>
+                    </button>
+
+                    <button data-action="subMinutes" class="ph-light ph-minus-circle" id="subMinutes">
+                        <span class="sr-only">Diminuir cinco minutos</span>
+                    </button>
+
+                </section>
+            </div>
+            <section id="sounds-controls">
+
+                <button data-action="forestSound" class="ph-thin ph-tree">
+                    <span class="sr-only">Ativar som de floresta</span>
+                </button>
+
+                <button data-action="rainSound" class="ph-thin ph-cloud-rain">
+                    <span class="sr-only">Ativar som de chuva</span>
+                </button>
+
+                <button data-action="shopSound" class="ph-thin ph-storefront">
+                    <span class="sr-only">Ativar som de um café</span>
+                </button>
+
+                <button data-action="flameSound" class="ph-thin ph-fire">
+                    <span class="sr-only">Ativar som chamas ardendo</span>
+                </button>
+
+            </section>
+
+        </section>
+
+    </section>
+
+</body>
+
+</html>
