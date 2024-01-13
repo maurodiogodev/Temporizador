@@ -1,4 +1,4 @@
-# Temporizador
+# AppTimer
 
 Temporizador estilo pomodoro
 
