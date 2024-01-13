@@ -1,6 +1,6 @@
-# AppTimer
-
+# Temporizador
 Temporizador estilo pomodoro
+
 
 # Tecnologias
 <p align="left">
