@@ -2,10 +2,9 @@
 
 Temporizador estilo pomodoro
 
-Use um intervalo de tempo para você se concentrar em cada tarefa ou em uma parte dela. Caso demore mais para realizá-la. A cada 25 minutos, é sugerido que você faça uma pausa de 5 minutos.
-
-
 # Tecnologias
-HTML 
-CSS 
-JS
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img height="45em" src="https://skillicons.dev/icons?i=html,css,js" />
+  </a>
+</p>
