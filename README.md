@@ -1,5 +1,5 @@
 # Temporizador
-Temporizador estilo pomodoro
+Timer máx 60 minutos. Estilo pomodoro
 
 ### 💻 Tecnologias
 <p align="left">
