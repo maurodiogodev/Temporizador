@@ -1,7 +1,7 @@
-import state from 'github-favorites/Temporizador/js/Timer/state.js'
-import * as el from 'github-favorites/Temporizador/js/Timer/elements.js'
-import * as actions from 'github-favorites/Temporizador/js/Timer/actions.js'
-import * as sounds from 'github-favorites/Temporizador/js/Timer/sounds.js'
+import state from './Timer/state.js'
+import * as el from './Timer/elements.js'
+import * as actions from './Timer/actions.js'
+import * as sounds from './Timer/sounds.js'
 
 export function countdown() {
 
