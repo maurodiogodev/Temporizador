@@ -1,8 +1,8 @@
-import * as elements from "github-favorites/Temporizador/js/Timer/elements.js";
-import * as actions from "github-favorites/Temporizador/js/Timer/actions.js";
-import state from "github-favorites/Temporizador/js/Timer/state.js";
-import { updateDisplay, canAddOrSub } from "github-favorites/Temporizador/js/Timer/timer.js";
-import { buttonPress } from "github-favorites/Temporizador/js/Timer/sounds.js";
+import * as elements from "./Timer/elements.js";
+import * as actions from "./Timer/actions.js";
+import state from "./Timer/state.js";
+import { updateDisplay, canAddOrSub } from "./Timer/timer.js";
+import { buttonPress } from "./Timer/sounds.js";
 
 export function registerControls() {
     elements.controls.addEventListener('click', event => {
