@@ -1,7 +1,7 @@
-import state from "github-favorites/Temporizador/js/Timer/state.js"
-import * as sounds from "github-favorites/Temporizador/js/Timer/sounds.js"
-import * as timer from "github-favorites/Temporizador/js/Timer/timer.js"
-import * as elements from "github-favorites/Temporizador/js/Timer/elements.js"
+import state from "./Timer/state.js"
+import * as sounds from "./Timer/sounds.js"
+import * as timer from "./Timer/timer.js"
+import * as elements from "./Timer/elements.js"
 
 export function toggleRunning() {
     state.isRunning = document.documentElement.classList.toggle('running')
