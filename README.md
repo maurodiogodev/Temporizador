@@ -77,7 +77,7 @@ This is a web application for time management based on the Pomodoro Technique, a
 
 ## 🌐 Demo
 
-Access the online version: [Githubers Demo](https://maurodiogodev.github.io/Temporizador/)
+Access the online version: [Pomodoro Timer](https://maurodiogodev.github.io/Temporizador/)
 
 ## 🌟 Learnings and Challenges
 
