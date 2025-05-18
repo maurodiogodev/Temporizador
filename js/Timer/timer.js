@@ -1,7 +1,7 @@
-import state from './Timer/state.js'
-import * as el from './Timer/elements.js'
-import * as actions from './Timer/actions.js'
-import * as sounds from './Timer/sounds.js'
+import state from './state.js'
+import * as el from './elements.js'
+import * as actions from './actions.js'
+import * as sounds from './sounds.js'
 
 export function countdown() {
 

@@ -1,7 +1,7 @@
-import state from "./Timer/state.js"
-import * as sounds from "./Timer/sounds.js"
-import * as timer from "./Timer/timer.js"
-import * as elements from "./Timer/elements.js"
+import state from "./state.js"
+import * as sounds from "./sounds.js"
+import * as timer from "./timer.js"
+import * as elements from "./elements.js"
 
 export function toggleRunning() {
     state.isRunning = document.documentElement.classList.toggle('running')

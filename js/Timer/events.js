@@ -1,6 +1,6 @@
-import * as elements from "./Timer/elements.js";
-import * as actions from "./Timer/actions.js";
-import state from "./Timer/state.js";
+import * as elements from "./elements.js";
+import * as actions from "./actions.js";
+import state from "./state.js";
 import { updateDisplay, canAddOrSub } from "./Timer/timer.js";
 import { buttonPress } from "./Timer/sounds.js";
 
