@@ -1,6 +1,6 @@
-import state from './Timer/state.js'
-import * as events from './Timer/events.js'
-import * as timer from './Timer/timer.js'
+import state from './state.js'
+import * as events from './events.js'
+import * as timer from './timer.js'
 
 export function start(minutes, seconds) {
     state.minutes = minutes
