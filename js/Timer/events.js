@@ -1,8 +1,8 @@
 import * as elements from "./elements.js";
 import * as actions from "./actions.js";
 import state from "./state.js";
-import { updateDisplay, canAddOrSub } from "./Timer/timer.js";
-import { buttonPress } from "./Timer/sounds.js";
+import { updateDisplay, canAddOrSub } from "./timer.js";
+import { buttonPress } from "./sounds.js";
 
 export function registerControls() {
     elements.controls.addEventListener('click', event => {
